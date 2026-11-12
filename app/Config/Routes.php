@@ -28,3 +28,11 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Dashboard::index');
+$routes->group('category', static function ($routes) {
+    $routes->get('/', 'Category::index');
+    $routes->get('create', 'Category::create');
+    $routes->post('store', 'Category::store');
+    $routes->get('edit/(:num)', 'Category::edit/$1');
+    $routes->post('update', 'Category::update');
+    $routes->get('delete/(:num)', 'Category::delete/$1');
+});

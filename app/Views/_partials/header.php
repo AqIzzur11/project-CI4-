@@ -6,7 +6,7 @@
     <title>SIP Online</title>
     <style type="text/css" id="debugbar_dynamic_style"></style>
     <link rel="stylesheet" href="<?php echo base_url('themes/dist'); ?>/css/adminlte.min.css">
-    <link rel="stylesheet" href="<?php echo base_url('themes/plugins themes/plugins'); ?>/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('themes/plugins'); ?>/fontawesome-free/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family-Source+Sans+Pro: 300, 400, 4001,700" rel="stylesheet">
     <script type="text/javascript" id="debugbar_dynamic_script"></script>
     <script type="text/javascript" id="debugbar_loader" data-time-"1585277113" src="<?php echo base_url('themes/plugins/'); ?>/index.php?debugbar"></script>
