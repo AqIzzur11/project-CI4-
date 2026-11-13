@@ -13,19 +13,6 @@ class Validation extends BaseConfig
     // --------------------------------------------------------------------
     // Setup
     // --------------------------------------------------------------------
-    public array $category = [
-        'category_name'   => 'required',
-        'category_status' => 'required'
-    ];
-
-    public array $category_errors = [
-        'category_name' => [
-            'required' => 'Nama category wajib diisi.',
-        ],
-        'category_status' => [
-            'required' => 'Status category wajib diisi.'
-        ]
-    ];
 
     /**
      * Stores the classes that contain the
@@ -54,4 +41,18 @@ class Validation extends BaseConfig
     // --------------------------------------------------------------------
     // Rules
     // --------------------------------------------------------------------
+
+    public array $category = [
+        'category_name'   => 'required',
+        'category_status' => 'required'
+    ];
+
+    public array $category_errors = [
+        'category_name' => [
+            'required' => 'Nama category wajib diisi.',
+        ],
+        'category_status' => [
+            'required' => 'Status category wajib diisi.'
+        ]
+    ];
 }
